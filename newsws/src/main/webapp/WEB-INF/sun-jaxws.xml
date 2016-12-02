@@ -1,0 +1,7 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+           version="2.0">
+    <endpoint
+            name="newsws"
+            implementation="ru.itpark.soa.NewsWSImpl"
+            url-pattern="/newsws" />
+</endpoints>
